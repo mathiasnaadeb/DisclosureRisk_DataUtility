@@ -1,4 +1,6 @@
 
+# Project : Evaluating disclosure risk and data utility of partially synthetic data by comparing it to local suppression
+
 # Packages needed
 library(readr)
 library(reghelper)
@@ -263,7 +265,7 @@ CI_overlap <- function(CI_ls, CIobs) {
 
 
 
-###  Monte Carlo simulation 
+####  Monte Carlo simulation 
 
 my_simulation <- function( n=n) { 
   
